@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>My Flutter App Updates</title>
+    <link>https://yourserver.com/appcast.xml</link>
+    <description>Latest app updates</description>
+    
+    <!-- 최신 버전 정보 -->
+    <item>
+      <title>Version 2.0.0</title>
+      <description>새로운 기능이 추가되었습니다.</description>
+      <pubDate>Fri, 12 Jan 2025 10:00:00 GMT</pubDate>
+      <enclosure url="https://yourserver.com/apk/my_app_v2.apk" length="12345678" type="application/octet-stream"/>
+      <sparkle:version>2.0.0</sparkle:version>
+      <sparkle:minimumSystemVersion>1.5.0</sparkle:minimumSystemVersion>
+    </item>
+
+    <!-- 이전 버전 정보 (선택 사항) -->
+    <item>
+      <title>Version 1.5.0</title>
+      <description>버그 수정 및 성능 개선.</description>
+      <pubDate>Fri, 15 Dec 2024 10:00:00 GMT</pubDate>
+      <enclosure url="https://yourserver.com/apk/my_app_v1.5.apk" length="11234567" type="application/octet-stream"/>
+      <sparkle:version>1.5.0</sparkle:version>
+      <sparkle:minimumSystemVersion>1.0.0</sparkle:minimumSystemVersion>
+    </item>
+  </channel>
+</rss>
