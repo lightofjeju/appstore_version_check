@@ -5,7 +5,7 @@
     <link>https://yourserver.com/appcast.xml</link>
     <description>Latest app updates</description>
     
-    <!-- 최신 버전 정보 -->
+    <!-- 최신 버전 정보! -->
     <item>
       <title>Version 2.0.0</title>
       <description>새로운 기능이 추가되었습니다.</description>
